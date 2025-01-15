@@ -11,8 +11,11 @@ body {
 .header {
     background: #1F2937;
     display: flex;
-    justify-content: space-around;
+    padding-left: 300px;
+    padding-right: 300px;
+    justify-content: space-between;
     align-items: center;
+    gap: 24px;
 }
 
 .header-text {
@@ -32,4 +35,52 @@ ul {
 a {
     text-decoration: none;
     color: #E5E7EB
+}
+
+.content {
+    background: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    gap: 24px;
+}
+
+.content-text {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.content-text .title {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.content-text .text {
+    color: #E5E7EB
+}
+
+.content-text .sign-up {
+    background: #3882F6;
+    color: #E5E7EB;
+    border: 0;
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    max-width: fit-content;
+}
+
+.content .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #70747c;
+    width: 550px;
+    height: 300px;
+    color: #E5E7EB;
 }
