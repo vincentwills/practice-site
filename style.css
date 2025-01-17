@@ -139,3 +139,44 @@ a {
     padding-top: 24px;
     font-weight: bold;
 }
+
+.sign-up {
+    display: flex;
+    padding: 64px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    gap: 100px;
+}
+
+.sign-up-title {
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 4px;
+}
+
+.sign-up-text .text {
+    color:#E5E7EB
+}
+
+.sign-up .sign-up {
+    background: #3882F6;
+    color: #E5E7EB;
+    border: solid 2px #E5E7EB;
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    max-width: fit-content;
+}
