@@ -142,7 +142,7 @@ a {
 
 .sign-up {
     display: flex;
-    padding: 64px;
+    padding: 80px;
     justify-content: center;
     align-items: center;
 }
@@ -179,4 +179,13 @@ a {
     border-radius: 8px;
     font-weight: bold;
     max-width: fit-content;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color:#F9FAF8;
+    padding: 24px;
 }
