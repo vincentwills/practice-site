@@ -95,7 +95,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 32px;
-    margin-bottom: 32px;
+    margin-bottom: 64px;
 }
 
 .info-box-image {
@@ -114,4 +114,28 @@ a {
     max-width: 155px;
     text-align: center;
     margin-top: 12px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    width: 700px;
+}
+
+.quote-author {
+    width: 700px;
+    text-align: end;
+    padding-top: 24px;
+    font-weight: bold;
 }
