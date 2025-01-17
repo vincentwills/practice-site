@@ -9,11 +9,9 @@ body {
 .header {
     background: #1F2937;
     display: flex;
-    padding-left: 300px;
-    padding-right: 300px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 24px;
+    gap: 350px;
 }
 
 .header-text {
@@ -38,16 +36,12 @@ a {
 .content {
     background: #1F2937;
     display: flex;
-    justify-content: space-between;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 180px;
-    padding-bottom: 200px;
-    gap: 24px;
+    justify-content: center;
+    padding: 64px;
+    gap: 64px;
 }
 
 .content-text {
-    max-height: 250px;
     width: 400px;
     display: flex;
     flex-direction: column;
